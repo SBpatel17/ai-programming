@@ -1,0 +1,76 @@
+{
+  "resources": [
+    {
+      "name": "Academic Advising",
+      "aliases": ["advising", "advisor", "JCC advising", "success navigator", "degree planning", "transfer planning"],
+      "location": "By appointment, in person or virtual",
+      "hours": "By appointment",
+      "phone": "716.338.1065",
+      "email": "SuccessCenter@sunyjcc.edu",
+      "website": "https://www.sunyjcc.edu/support/success-center/advising/get-connected",
+      "description": "Advisors assist students with academic, career, and transfer planning, and are available to all JCC students. Success Navigators assist students in the transition to college and connect them to advisors and other resources.",
+      "verified_by": "Sameer Patel",
+      "last_verified": "2026-09-29"
+    },
+    {
+      "name": "Career Services",
+      "aliases": ["Career Center", "JCC Career Services", "careers", "jobs", "internships", "resume help", "handshake", "career closet"],
+      "location": "Jamestown Campus, 525 Falconer Street, Jamestown, NY 14702",
+      "hours": "Not listed on official website",
+      "phone": "716.338.1061; 716.338.1381; 716.376.7584",
+      "email": "Not listed on official website",
+      "website": "https://www.sunyjcc.edu/support/career-services",
+      "description": "Career Services at Jamestown Community College helps students and alumni explore and prepare for careers, with support for writing resumes, interviewing, internships, and experiencing a job firsthand.",
+      "verified_by": "Stavros Singleton",
+      "last_verified": "2026-09-26"
+    },
+    {
+      "name": "Student Food Pantry",
+      "aliases": ["food pantry", "food", "pantry", "meal", "hygiene products"],
+      "location": "Jamestown Campus: next to the Campus Bookstore, Hamilton Collegiate Center, first floor. Cattaraugus County Campus: Success Center across from the bookstore, College Center, first floor.",
+      "hours": "Not listed on official website",
+      "phone": "Jamestown Campus: 716.338.1004; Cattaraugus County Campus: 716.376.7508",
+      "email": "Not listed on official website",
+      "website": "https://www.sunyjcc.edu/support/get-help/food-pantry",
+      "description": "Jamestown Community College maintains a food pantry for all students on the Jamestown Campus and Cattaraugus County Campus, with an assortment of donated food items and hygiene products.",
+      "verified_by": "Jerrica Sosa",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "name": "Health Center",
+      "aliases": ["health", "medical", "sick", "nurse", "clinic"],
+      "location": "Jamestown Campus: COCE 122; Cattaraugus County Campus: COLL 139",
+      "hours": "Not listed on official website",
+      "phone": "716.338.1013 (general, Charlene Johnson); 716.338.1014 (nurse, Shelly Wells, RN)",
+      "email": "HealthCenter@sunyjcc.edu",
+      "website": "https://www.sunyjcc.edu/support/health-center",
+      "description": "JCC's health centers support the health and well-being of all students and employees, including help with seasonal illnesses like influenza, RSV, or COVID-19 and other health concerns.",
+      "verified_by": "Jerrica Sosa",
+      "last_verified": "2026-09-22"
+    },
+    {
+      "name": "Financial Aid & Billing",
+      "aliases": ["Financial Aid", "Financial Aid Office", "JCC Financial Aid", "billing", "student bill", "fafsa", "grants", "scholarships"],
+      "location": "COCE Floor 1, Jamestown Campus",
+      "hours": "Not listed on official website",
+      "phone": "716.338.1009",
+      "email": "FinancialAid@sunyjcc.edu",
+      "website": "https://www.sunyjcc.edu/support/financial-aid-billing",
+      "description": "JCC Financial Aid & Billing helps students understand their financial aid, student bill, and options to help pay for college, including questions about FAFSA, financial aid requirements, and financial aid status.",
+      "verified_by": "Tangie Cummings",
+      "last_verified": "2026-09-29"
+    },
+    {
+      "name": "IT Help Desk",
+      "aliases": ["JCC Help Desk", "help desk", "IT", "tech support", "computer help", "password reset"],
+      "location": "Hultquist (HULT) building, Floor 1",
+      "hours": "Monday through Friday, 8:30 AM - 4:30 PM",
+      "phone": "716.338.1122",
+      "email": "JCCHelpDesk@mail.sunyjcc.edu",
+      "website": "https://jcc.helpdesk.sunyjcc.edu/servicedesk/customer/user/login?destination=portals",
+      "description": "The JCC IT Help Desk is the central point of contact for technology support across all JCC campuses, providing technical assistance to students, faculty, and staff.",
+      "verified_by": "Shant Michaelian",
+      "last_verified": "2026-09-26"
+    }
+  ]
+}

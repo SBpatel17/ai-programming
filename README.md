@@ -1,12 +1,35 @@
-# AI Programming Coursework
+# Campus Resource Assistant
+An AI-powered assistant that helps students find information about campus resources.
+## Features
+- Natural language questions about campus services
+- Accurate information sourced from verified data
+- 24/7 availability through web interface
+- Conversation history within sessions
+## Live App
+**URL:** [Add your Streamlit Cloud URL here]
+## Local Development
+1. Clone the repository
+2. Create conda environment: `conda create -n ai-agents python=3.11`
+3. Activate: `conda activate ai-agents`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Create `.env` file with: `GOOGLE_API_KEY=your-key-here`
+6. Run: `streamlit run app.py`
+## Project Structure
+campus_agent/
+├── agent.py # ADK agent and tool definition
+├── app.py # Streamlit web interface
+├── campus_resources.json # Verified campus data
+├── requirements.txt # Python dependencies
+└── .streamlit/
+└── config.toml # Streamlit configuration
 
-This repository contains my work for the AI Programming course.
-## Environment Setup
-- Python: 3.11
-- Environment: ai-agents (conda)
-- Editor: VS Code
-## Projects
+## Data Verification
+All campus resource information was verified against official college sources. See `campus_resources.json` for verification details including:
+- Who verified the information (`verified_by`)
+- When it was last checked (`last_verified`)
 
-Lab 1: First AI Agent (coming soon)
 ## Author
 Sameer Patel
+AI Programming Course
+Fall 2026
+W

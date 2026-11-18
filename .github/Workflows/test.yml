@@ -1,0 +1,49 @@
+name: Run tests
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: campus_agent
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      - name: Run tests
+        run: python -m pytest test_agent.py -v --junitxml=results.xml
+
+      # Runs even if tests fail, so the summary always shows what happened
+      - name: Report results to the run summary
+        if: always()
+        shell: python
+        run: |
+          import os
+          import xml.etree.ElementTree as ET
+
+          suite = ET.parse("results.xml").getroot().find("testsuite")
+          lines = ["## Test results", "", "| Test | Result |", "|---|---|"]
+          for case in suite.iter("testcase"):
+              failed = case.find("failure") is not None or case.find("error") is not None
+              lines.append(f"| {case.get('name')} | {'❌ Failed' if failed else '✅ Passed'} |")
+
+          bad = int(suite.get("failures")) + int(suite.get("errors"))
+          total = int(suite.get("tests"))
+          lines += ["", f"**{total - bad} of {total} tests passed**"]
+
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
+              f.write("\n".join(lines) + "\n")

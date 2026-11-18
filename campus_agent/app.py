@@ -8,7 +8,7 @@ Author: Sameer Patel
 Course: AI Programming
 """
 
-# Version 1.1 - added auto-redeploy
+# Version 1.1.1 - added auto-redeploy
 
 import streamlit as st
 import asyncio
